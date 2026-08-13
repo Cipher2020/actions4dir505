@@ -131,7 +131,7 @@ CONFIG_DEFAULT_kmod-nf-nathelper-extra=y
 CONFIG_DEFAULT_kmod-usb-chipidea2=y
 CONFIG_DEFAULT_libc=y
 CONFIG_DEFAULT_libgcc=y
-CONFIG_DEFAULT_libustream-openssl=y
+# CONFIG_DEFAULT_libustream-openssl is not set
 CONFIG_DEFAULT_logd=y
 CONFIG_DEFAULT_luci=y
 # CONFIG_DEFAULT_luci-app-cpufreq is not set
@@ -141,7 +141,7 @@ CONFIG_DEFAULT_luci-lib-fs=y
 CONFIG_DEFAULT_luci-lib-ipkg=y
 CONFIG_DEFAULT_mtd=y
 CONFIG_DEFAULT_netifd=y
-CONFIG_DEFAULT_opkg=y
+# CONFIG_DEFAULT_opkg is not set
 CONFIG_DEFAULT_ppp=y
 CONFIG_DEFAULT_ppp-mod-pppoe=y
 CONFIG_DEFAULT_procd=y
@@ -151,7 +151,7 @@ CONFIG_DEFAULT_uci=y
 CONFIG_DEFAULT_uclient-fetch=y
 CONFIG_DEFAULT_urandom-seed=y
 CONFIG_DEFAULT_urngd=y
-CONFIG_DEFAULT_wpad-basic-openssl=y
+# CONFIG_DEFAULT_wpad-basic-openssl is not set
 CONFIG_HAS_TESTING_KERNEL=y
 CONFIG_AUDIO_SUPPORT=y
 CONFIG_GPIO_SUPPORT=y
@@ -1554,7 +1554,7 @@ CONFIG_PACKAGE_netifd=y
 # CONFIG_PACKAGE_nvram is not set
 # CONFIG_PACKAGE_ootoc is not set
 CONFIG_PACKAGE_openwrt-keyring=y
-CONFIG_PACKAGE_opkg=y
+# CONFIG_PACKAGE_opkg is not set
 CONFIG_PACKAGE_procd=y
 
 #
@@ -3741,7 +3741,7 @@ CONFIG_OPENSSL_WITH_TLS13=y
 # CONFIG_OPENSSL_WITH_DTLS is not set
 # CONFIG_OPENSSL_WITH_NPN is not set
 CONFIG_OPENSSL_WITH_SRP=y
-CONFIG_OPENSSL_WITH_CMS=y
+CONFIG_OPENSSL_WITH_CMS=ycp include/toplevel.mk include/toplevel.mk.bak
 
 #
 # Algorithm Selection
@@ -3768,9 +3768,9 @@ CONFIG_OPENSSL_WITH_PSK=y
 #
 # Engine/Hardware Support
 #
-CONFIG_OPENSSL_ENGINE=y
-CONFIG_OPENSSL_ENGINE_BUILTIN=y
-CONFIG_OPENSSL_ENGINE_BUILTIN_DEVCRYPTO=y
+# CONFIG_OPENSSL_ENGINE is not set
+# CONFIG_OPENSSL_ENGINE_BUILTIN is not set
+# CONFIG_OPENSSL_ENGINE_BUILTIN_DEVCRYPTO is not set
 # CONFIG_PACKAGE_libopenssl-afalg_sync is not set
 # CONFIG_PACKAGE_libopenssl-conf is not set
 # CONFIG_PACKAGE_libopenssl-devcrypto is not set
@@ -4175,7 +4175,7 @@ CONFIG_PACKAGE_libuclient=y
 # CONFIG_PACKAGE_libusb-1.0 is not set
 # CONFIG_PACKAGE_libusb-compat is not set
 # CONFIG_PACKAGE_libustream-mbedtls is not set
-CONFIG_PACKAGE_libustream-openssl=y
+# CONFIG_PACKAGE_libustream-openssl is not set
 # CONFIG_PACKAGE_libustream-wolfssl is not set
 # CONFIG_PACKAGE_libuuid is not set
 # CONFIG_PACKAGE_libuv is not set
