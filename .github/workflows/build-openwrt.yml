@@ -89,8 +89,8 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
 
-    - name: SSH debug
-      uses: mxschmitt/action-tmate@v3
+#    - name: SSH debug
+#      uses: mxschmitt/action-tmate@v3
 
     - name: Download package
       id: package
